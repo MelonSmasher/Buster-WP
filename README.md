@@ -27,6 +27,7 @@ Some cool projects that this software relies on.
 
 * [wpbones/WPBones](https://github.com/wpbones/WPBones)
 * [guzzle/guzzle](https://github.com/guzzle/guzzle)
+* [nginx-modules/ngx_cache_purge](https://github.com/nginx-modules/ngx_cache_purge)
 * [nesbot/carbon](https://github.com/nesbot/carbon)
 * [wanfeiyy/dd](https://github.com/wanfeiyy/dd)
 * [MelonSmasher/Buster-Client](https://github.com/MelonSmasher/Buster-Client)
