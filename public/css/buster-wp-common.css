@@ -1,0 +1,18 @@
+/**
+ * Less sample file.
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.buster-wp {
+  display: block;
+  background-color: #ff0;
+}
+.buster-wp-align {
+  display: block;
+  clear: both;
+}
+.buster-wp-align-left {
+  text-align: left;
+}

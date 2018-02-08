@@ -1,0 +1,36 @@
+{
+  "name": "BusterWP",
+  "type": "wordpress-plugin",
+  "description": "Buster WP is a WordPress client for your Buster server.",
+  "keywords": [ "wordpress", "buster", "nginx", "cache", "proxy", "fastcgi" ],
+  "homepage": "https://github.com/MelonSmasher/Buster-WP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Markessinis",
+      "email": "markea125@mail.com",
+      "homepage": "https://github.com/MelonSmasher"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MelonSmasher/Buster-WP/issues",
+    "source": "https://github.com/MelonSmasher/Buster-WP/"
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "wpbones/wpbones": "^0.8",
+    "melonsmasher/buster-client": "~1.0",
+    "nesbot/carbon": "^1.22"
+  },
+  "require-dev": {
+    "wanfeiyy/dd": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BusterWP\\": "plugin/"
+    },
+    "files": [
+      "functions.php"
+    ]
+  }
+}
