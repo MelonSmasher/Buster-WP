@@ -8,15 +8,11 @@ This helps strikes a balance between performance and updated content delivery.
 
 ## Installation:
 
-Check the releases page for the latest version tag.
+Check the releases page for the latest version.
 
-```bash
-cd wp-content/plugins;
-git clone https://github.com/MelonSmasher/Buster-WP.git buster-wp;
-cd buster-wp;
-git checkout v1.0.0;
-php bones update; 
-```
+Download the latest packed zip.
+
+Unzip in your plugins directory.
 
 After installing the plugin activate it, in the wp-admin plugins page.
 

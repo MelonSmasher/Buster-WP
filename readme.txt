@@ -17,14 +17,10 @@ Buster WP is a WordPress client for your Buster server.
 
 This section describes how to install the plugin and get it working.
 
-Check the releases page for the latest version tag.
+Check the releases page for the latest version.
 
-```bash
-cd wp-content/plugins;
-git clone https://github.com/MelonSmasher/Buster-WP.git buster-wp;
-cd buster-wp;
-git checkout v1.0.0;
-php bones update;
-```
+Download the latest packed zip.
+
+Unzip in your plugins directory.
 
 After installing the plugin activate it, in the wp-admin plugins page.
