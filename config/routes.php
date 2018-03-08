@@ -15,14 +15,14 @@ return [
         'title' => 'Buster Purge All',
         'capability' => 'read',
         'route' => [
-            'get' => 'DashboardController@bustAll'
+            'get' => 'Dashboard\DashboardController@bustAll'
         ]
     ],
     'purge_page' => [
         'title' => 'Buster Purge Page',
         'capability' => 'read',
         'route' => [
-            'post' => 'DashboardController@bustPage'
+            'post' => 'Dashboard\DashboardController@bustPage'
         ]
     ]
 ];
