@@ -47,4 +47,16 @@ class DashboardController extends Controller
 
         return $this->redirect(BusterWP()->getPageUrl('buster_wp'));
     }
+
+    public function bustPage()
+    {
+        busterBust($this->request->get('Buster_Client.bust.page'));
+        return $this->redirect(BusterWP()->getPageUrl('buster_wp'));
+    }
+
+    public function bustAll()
+    {
+        busterBustAll();
+        return $this->redirect(BusterWP()->getPageUrl('buster_wp'));
+    }
 }

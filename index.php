@@ -4,7 +4,7 @@
  * Plugin Name: Buster WP
  * Plugin URI: https://github.com/MelonSmasher/Buster-WP
  * Description: Buster WP is a WordPress client for your Buster server.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: MelonSmasher
  * Author URI: https://github.com/MelonSmasher
  * Text Domain: buster-wp

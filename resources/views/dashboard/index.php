@@ -75,6 +75,25 @@
 
     </form>
 
+    <?php if (!empty($plugin->options->get('Buster_Server.enabled'))) : ?>
+        <h2>Buster Manual Purge</h2>
+        <p>You manually can purge a page from the cache for this site by filling out the form below.</p>
+        <form action="<?php echo($plugin->getPageUrl('purge_page')) ?>" method="post">
+            <label>Path to Bust</label>
+            <input type="text"
+                   placeholder="/about"
+                   name="Buster_Client/bust/page"
+                   value=""
+            />
+            <br/>
+            <button>Purge Page</button>
+            <br/>
+        </form>
+        <h5>Warning: purging the entire cache is usually not needed, and will slow down the entire site.</h5>
+        <p>You can purge the entire cache for this site by <a href="<?php echo($plugin->getPageUrl('purge_all')) ?>">clicking
+                here</a>.</p>
+    <?php endif; ?>
+
     <h2>Buster Purge History</h2>
 
     <?php if (!empty($status)) : ?>
